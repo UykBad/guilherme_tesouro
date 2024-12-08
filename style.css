@@ -1,0 +1,33 @@
+body {
+    background-color: #1d0f02;
+    color: rgb(245, 235, 220);
+    font-family: "Fredericka the Great", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #f04e71a9;
+    color: rgb(245, 235, 220);
+    font-family: "Fredericka the Great", serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}
